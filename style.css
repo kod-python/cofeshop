@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* universal section starts here */
+
+.container{
+    width: 80%;
+    margin:0 auto;
+    padding:1%;
+}
+
+/* universal section ends here */
+
+/* nav section starts here */
+.nav-h1{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #323232;
+    padding: 22px;
+
+       
+}
+
+
+nav ul li a span{
+    color: rgb(223, 72, 18);
+}
+.nav-h1 h1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+nav ul{
+  
+    
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+   margin: 11px;
+    font-size: 1.3rem;
+    transition: 1s ease forwards;
+    transition-property: color;
+    color: white;
+    
+   
+}
+
+nav a:hover{
+    color:rgb(223, 72, 18);
+}
+
+nav img{
+  width: 23px;
+}
+
+.nav-down-img{
+    background-image: url("./images/banner-bg.png");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    padding: 10%;
+    background-position: center;
+     
+}
+
+.nav-down-img   span::after{
+   content: "\a";
+   /* white-space: pre; */
+   white-space-collapse:break-spaces;
+   line-height: 30px;
+}
+
+.nav-down-img p{
+    padding-bottom: 20px;
+    
+}
+
+
+
+.nav-down-img button{
+    padding: 10px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    
+}
+/* nav section ends here */
+
+
+
+/* about section starts here */
+#about .about-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+#about  span::after{
+    content: "\a";
+    white-space: pre;
+    
+
+}
+
+#about img{
+    width: 500px;
+}
+
+#about h2{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+    #about p{
+    font-size: 1.2rem;
+}    
+
+#about button{
+    padding: 15px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+/* about section ends here  */
+
+/* gallery section starts here */
+#gallery .gallery-top{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+#gallery h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 40px;
+}
+
+#gallery p{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+#gallery .img-responsive{
+    width: 200px;
+    display: block;
+ 
+    padding: 20px;
+}
+
+#gallery li{
+    list-style-type: none;
+}
+
+#gallery .box-container{
+    display: flex;
+
+
+}
+
+#gallery button{
+    padding: 15px;
+    margin-top: 20px;
+    width: 15%;
+    
+} 
+
+/* gallery section ends here */
