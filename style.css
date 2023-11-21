@@ -66,6 +66,7 @@ nav a:hover{
     color:rgb(223, 72, 18);
 }
 
+
 nav img{
   width: 23px;
 }
@@ -268,16 +269,15 @@ nav img{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    filter:hue-rotate(0);
-    transition: 1s ease filter;
-    transition-property: background-color,color;
+    padding: 40px 30px;
+    
+    transition:0s ease  visibilty ;
    
     
 }
 
 #service .service-all:hover{
-    color: white;
-    background-color: white;
+    visibility: visible;
 }
 
 
@@ -313,7 +313,14 @@ nav img{
     background-color:  black;
     color: white;
     font-size: 1rem;
-    
+  
+  
+}
+
+
+#service button:hover + .hide{
+  display: block;
+  color: red;
    
 }
 
@@ -323,45 +330,13 @@ nav img{
 /* service section ends here */
 
 
-/* testimonial section start here */
-
-#testimonial .testimonial-top{
-    background-color: white;
-    width: 100%;
-    height: 100;
-    text-align: justify;
-    padding-left: 200px;
-    
- 
-}
- 
-
-#testimonial .h2-p{
-    border-top-left-radius:0 15px ;
-    border-bottom-right-radius: 30px ;
-    border: 1px solid;
-    border-top: none;
-    border-bottom:none 200px;
-}
-
-#testimonial h2{
-    color:  rgb(223, 72, 18);
-}
-
-
-#testimonial button {
-    padding: 10px;
-}
-
-
-/* testimonial section ends here*/
-
 
 /* contact section starts here */
 #contact .contact-top{
     background-color: white;
     width: 100%;
     height: 100;
+ 
   
 }
 
@@ -372,6 +347,7 @@ nav img{
     width: 700px;
     height: 80vh;
     padding: 100px;
+
     
 }
 
@@ -380,6 +356,7 @@ nav img{
 border-radius: 15px;
 display: grid;
 max-width: 700px;
+margin-top: 50px;
 
 
    
