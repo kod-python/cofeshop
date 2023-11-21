@@ -127,9 +127,9 @@ nav img{
 /* about section starts here */
 #about .about-top{
     display: flex;
-    justify-content: space-around;
+   justify-content: center;
     align-items: center;
-   
+   gap: 30px;
     flex-wrap: wrap;
     background-color: white;
     width: 100%;
